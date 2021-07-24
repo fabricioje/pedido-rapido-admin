@@ -328,7 +328,7 @@ Returns:
   "occupation": 1
 }
 ```
-## **Create a employye**
+## **Create a employee**
 
 ```http
   POST /api/v1/employees
@@ -355,7 +355,7 @@ Returns:
 ```
 
 
-## **Update a employye**
+## **Update a employee**
 
 ```http
   PATCH /api/v1/employees/:id
@@ -363,7 +363,7 @@ Returns:
 
 | Parameter | Type  | Description               |
 | :-------- | :---- | :------------------------ |
-| `id`      | `int` | **Required**. Id Employye |
+| `id`      | `int` | **Required**. Id Employee |
 
 Request body:
 ```json
@@ -384,7 +384,7 @@ Returns:
   "occupation": 1
 ```
 
-## **Delete a employye**
+## **Delete a employee**
 
 ```http
   DELETE /api/v1/employees/:id
@@ -392,7 +392,7 @@ Returns:
 
 | Parameter | Type  | Description               |
 | :-------- | :---- | :------------------------ |
-| `id`      | `int` | **Required**. Id Employye |
+| `id`      | `int` | **Required**. Id Employee |
 
 Returns:
 
