@@ -38,6 +38,7 @@ Returns:
   ]
 }
 ```
+
 ## **Get a category by ID**
 
 ```http
@@ -58,6 +59,7 @@ Returns:
   "name": "Category 1"
 }
 ```
+
 ## **Create a category**
 
 ```http
@@ -152,7 +154,7 @@ Returns:
       }
     },
     {
-      "id": 2
+      "id": 2,
       "name": "Product name 2",
       "description": "Description of my second product",
       "category": {
@@ -163,6 +165,7 @@ Returns:
   ]
 }
 ```
+
 ## **Get a product by ID**
 
 ```http
