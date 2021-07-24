@@ -382,6 +382,7 @@ Returns:
   "id": 10,
   "name": "Admin employee",
   "occupation": 1
+}
 ```
 
 ## **Delete a employee**
