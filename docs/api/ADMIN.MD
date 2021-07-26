@@ -17,7 +17,7 @@
 ## **Get all categories**
 
 ```http
-  GET /api/v1/categories
+  GET /admin/v1/categories
 ```
 
 Returns:
@@ -42,7 +42,7 @@ Returns:
 ## **Get a category by ID**
 
 ```http
-  GET /api/v1/categories/:id
+  GET /admin/v1/categories/:id
 ```
 
 | Parameter | Type  | Description               |
@@ -63,7 +63,7 @@ Returns:
 ## **Create a category**
 
 ```http
-  POST /api/v1/categories
+  POST /admin/v1/categories
 ```
 
 Request body:
@@ -88,7 +88,7 @@ Returns:
 ## **Update a category**
 
 ```http
-  PATCH /api/v1/categories/:id
+  PATCH /admin/v1/categories/:id
 ```
 
 | Parameter | Type  | Description               |
@@ -116,7 +116,7 @@ Returns:
 ## **Delete a category**
 
 ```http
-  DELETE /api/v1/categories/:id
+  DELETE /admin/v1/categories/:id
 ```
 
 | Parameter | Type  | Description               |
@@ -134,7 +134,7 @@ Returns:
 ## **Get all products**
 
 ```http
-  GET /api/v1/products
+  GET /admin/v1/products
 ```
 
 Returns:
@@ -169,7 +169,7 @@ Returns:
 ## **Get a product by ID**
 
 ```http
-  GET /api/v1/products/:id
+  GET /admin/v1/products/:id
 ```
 
 | Parameter | Type  | Description               |
@@ -194,7 +194,7 @@ Returns:
 ## **Create a product**
 
 ```http
-  POST /api/v1/products
+  POST /admin/v1/products
 ```
 
 Request body:
@@ -226,7 +226,7 @@ Returns:
 ## **Update a product**
 
 ```http
-  PATCH /api/v1/products/:id
+  PATCH /admin/v1/products/:id
 ```
 
 | Parameter | Type  | Description               |
@@ -261,7 +261,7 @@ Returns:
 ## **Delete a product**
 
 ```http
-  DELETE /api/v1/products/:id
+  DELETE /admin/v1/products/:id
 ```
 
 | Parameter | Type  | Description               |
@@ -279,7 +279,7 @@ Returns:
 ## **Get all employees**
 
 ```http
-  GET /api/v1/employees
+  GET /admin/v1/employees
 ```
 
 Returns:
@@ -310,7 +310,7 @@ Returns:
 ## **Get a employee by ID**
 
 ```http
-  GET /api/v1/employees/:id
+  GET /admin/v1/employees/:id
 ```
 
 | Parameter | Type  | Description               |
@@ -331,7 +331,7 @@ Returns:
 ## **Create a employee**
 
 ```http
-  POST /api/v1/employees
+  POST /admin/v1/employees
 ```
 
 Request body:
@@ -358,7 +358,7 @@ Returns:
 ## **Update a employee**
 
 ```http
-  PATCH /api/v1/employees/:id
+  PATCH /admin/v1/employees/:id
 ```
 
 | Parameter | Type  | Description               |
@@ -388,7 +388,7 @@ Returns:
 ## **Delete a employee**
 
 ```http
-  DELETE /api/v1/employees/:id
+  DELETE /admin/v1/employees/:id
 ```
 
 | Parameter | Type  | Description               |
