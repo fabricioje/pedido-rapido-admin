@@ -25,6 +25,14 @@
 | `search`  | `string` | Search parameter     |
 | `status`  | `string` | Filter Status(0,1,2) |
 
+> **search -** Deve buscar pelos campos:
+>
+> * Id pedido
+> * Nome Cliente
+> * Mesa
+
+> **status -** Deve receber um array com os status [0,1,2]
+
 Returns:
 
 * 200
@@ -76,7 +84,7 @@ Returns:
 }
 ```
 
-## **Get a category by ID**
+## **Get a order by ID**
 
 ```http
   GET /front/v1/orders/:id
@@ -298,6 +306,11 @@ Returns:
 | :-------- | :------- | :------------ |
 | `search`  | `string` | Search params |
 
+> **search params -** Deve buscar pelos campos:
+>
+> * Nome da categoria
+> * Nome da produto
+> * Descrição do produto
 
 Returns:
 
